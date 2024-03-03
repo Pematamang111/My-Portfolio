@@ -2,7 +2,7 @@
     background-color: rgb(248, 231, 206);
 }
 
-header nav ul li {
+header nav ul .nav {
     display: inline;
     font-size: 30px;
     background-color: rgb(40, 134, 134);
@@ -21,7 +21,7 @@ h1 {
     background-color: rgb(40, 134, 134)
     
 }
-ul {
+header nav ul {
     background-color: rgb(40, 134, 134);
 }
 
@@ -30,6 +30,8 @@ a {
     background-color: rgb(40, 134, 134);
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 a:hover {
@@ -40,19 +42,21 @@ header nav {
 display: flex;
 justify-content: end;
 background-color: rgb(40, 134, 134);
+
 }
  
 img {
     width: 450px;
     border-radius: 50%;
     margin-left: 30px;
-    filter: drop-shadow(10px 5px 2px #83838f);
+    filter: drop-shadow(10px 5px 2px #ccccce);
 }
 
 #profile {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -60,4 +64,56 @@ h2 {
     font-size: 2rem;
     color:  rgb(54, 51, 51);
 }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    padding-left: 100px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+section p {
+    padding-top: 30px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.hobby {
+    padding-left: 0;
+    margin-right: 370px;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+}
+
+#hobbies ul {
+    list-style: square;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+
+
+#work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 
