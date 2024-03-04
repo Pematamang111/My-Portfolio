@@ -2,7 +2,7 @@
 My CV for job search
 
 ## Description
-
+My-Portfolio has many information about Pema Sherpa including her picture. This is build up to show during the job interview. This portfolio contains written overviews of work that Pema Sherpa had been involved with.
 
 
 ## Installation
@@ -10,7 +10,7 @@ My CV for job search
 N/A
 
 ## Usage
-
+This portfolio is useful in software engineer job interviews.
 
 
 ## Credits
