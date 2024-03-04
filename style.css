@@ -58,6 +58,12 @@ img {
     margin-bottom: 30px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
 hr {
     border-top: 10px dotted rgb(207, 205, 205);
     width: 150px;
@@ -87,6 +93,8 @@ section {
 section p {
     padding-top: 30px;
     padding-left: 100px;
+    padding-right: 200px;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 0.5px;
     font-size: 1.3rem;
@@ -94,8 +102,7 @@ section p {
 }
 
 .hobby {
-    padding-left: 0;
-    margin-right: 370px;
+margin-right: 370px;
 }
 
 #hobbies {
@@ -130,32 +137,13 @@ h4 {
     margin-bottom: 20px;
 }
 
+.phone {
+    margin-left: -180px;
 
-
-
-#contacts {
-    display: ruby;
-    margin-top: 55px;
 }
 
- .mobile {
-    margin-left: 90px;
-    font-size: 1.5rem;
- }
-
- .email {
-    margin-left: 120px;
-    font-size: 1.5rem;
- }
-
- .github {
-    margin-left: 120px;
-    font-size: 1.5rem;
- }
-
-
-.contact {
-    margin-right: 85px;
+.github {
+    margin-left: -150px;
 }
 
 footer h6 {
