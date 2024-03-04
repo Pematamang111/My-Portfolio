@@ -165,7 +165,17 @@ footer h6 {
 
 }
 
-media screen and (maxwidth: 600px)
+@media screen and (max-width: 600px)
 {
+h1 {
+    padding-left: 145px;
+    margin-bottom: 0;
+}
+ header nav ul {
+    display: grid;
+    margin-top: 0;
+    padding-right: 180px;
+ }
+
 
 }
