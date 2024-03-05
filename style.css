@@ -1,15 +1,17 @@
 :root {
-    
+    --headerColor:  rgb(40, 134, 134);
+    --bodyColor: rgb(248, 231, 206);
+    --fontChoice: Arial, Helvetica, sans-serif;
 }
 
 * {
-    background-color: rgb(248, 231, 206);
+    background-color: var(--bodyColor)
 }
 
 header nav ul .nav {
     display: inline;
     font-size: 30px;
-    background-color: rgb(40, 134, 134);
+    background-color: var(--headerColor);
     
     
     
@@ -22,20 +24,19 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     color: rgb(54, 51, 51);
-    background-color: rgb(40, 134, 134)
+    background-color: var(--headerColor);
     
 }
 header nav ul {
-    background-color: rgb(40, 134, 134);
+    background-color: var(--headerColor);
 }
 
 a {
     margin: 25px;
-    background-color: rgb(40, 134, 134);
+    background-color: var(--headerColor);
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: var(--fontChoice)
     
 }
 
@@ -46,7 +47,7 @@ a:hover {
 header nav {
 display: flex;
 justify-content: end;
-background-color: rgb(40, 134, 134);
+background-color: var(--headerColor);
 
 }
  
@@ -85,7 +86,7 @@ h2 {
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontChoice);
     font-size: 3rem;
     padding-left: 100px;
 }
@@ -110,7 +111,7 @@ section {
     font-size: 1.3rem;
     margin-top: 5px;
     margin-bottom: 0;
-    background-color: rgb(248, 231, 206);
+    background-color: var(--bodyColor);
     color: rgb(15, 99, 24);
     padding-right:200px;
 }
@@ -120,7 +121,7 @@ section p {
     padding-left: 100px;
     padding-right: 200px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontChoice);
     word-spacing: 0.5px;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -131,7 +132,7 @@ margin-right: 370px;
 }
 
 #hobbies {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontChoice);
     display: flex;
     flex-direction: column;
     padding-left: 460px;
@@ -152,7 +153,7 @@ h4 {
 
 
 #work-experience {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontChoice);
     word-spacing: 0.5px;
     display: flex;
     flex-direction: column;
@@ -277,11 +278,5 @@ div#hobbies {
     #contactnav .github {
         margin-left: 70px;
     }
-
-
-
-
-
-
 
 }
