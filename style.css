@@ -229,7 +229,45 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-    
+    header nav {
+        padding-right: 60px;
+    }
+
+    img {
+        width: 310px;
+    }
+
+    #hobbies ul {
+        margin-left: -150px;
+    }
+
+    #my-work a {
+        margin-left: -100px;
+    }
+
+    .contact-header {
+        margin-right: 100px;
+    }
+
+    #contactnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contactnav .emailadd {
+        margin-left: 50px;
+    }
+
+    #contactnav .phone { 
+      margin-left: 70px;
+    }
+
+    #contactnav .github {
+        margin-left: 70px;
+    }
+
+
 
 
 
