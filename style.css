@@ -212,11 +212,16 @@ section {
 
 #my-work a {
     margin-right: 100px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 
 .hobby {
     text-indent: 49px;
+}
+
+div#hobbies {
+    margin-left: 180px;
 }
 
 #hobbies ul li {
@@ -248,7 +253,7 @@ section {
     }
 
     #my-work a {
-        margin-left: -100px;
+        margin-left: 70px;
     }
 
     .contact-header {
