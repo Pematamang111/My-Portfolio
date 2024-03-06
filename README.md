@@ -22,6 +22,11 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Screenshot
+./assets/screenshot1.png
+./assets/screenshot2.png
+./assets/screenshot3.png
+./assets/screenshot4.png
+
 
 
 ## Deployed link
