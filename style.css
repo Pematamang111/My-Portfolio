@@ -1,4 +1,4 @@
-
+/*variable names for calling same value*/
 :root {
     --headerColor:  rgb(40, 134, 134);
     --bodyColor: rgb(248, 231, 206);
@@ -23,7 +23,7 @@ h1 {
     margin-top: 0;
     margin-bottom: -60px;
     color: rgb(54, 51, 51);
-    /*background-color: var(--headerColor);*/
+    
     
 }
 
@@ -52,7 +52,7 @@ background-color: var(--headerColor);
 }
  
 img {
-    width: 450px;
+    width: 190px;
     border-radius: 50%;
     margin-left: 30px;
     filter: drop-shadow(10px 5px 2px #ccccce);
@@ -109,6 +109,8 @@ section {
     flex-direction: column;
     align-items: center;
     padding-left: 250px;
+    margin-top: -40px;
+    padding-top: 0;
 
 }
 
@@ -295,6 +297,7 @@ div#hobbies {
 
 }
 
+/*large devices (laptop, desktop, 992px upto 1199px)*/
 @media (min-width: 992px) and (max-width: 1199px){
 
 h1 {
