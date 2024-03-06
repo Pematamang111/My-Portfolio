@@ -25,4 +25,5 @@ Please refer to the LICENSE in the repo.
 
 
 ## Deployed link
-Here are my deployed link for My-Portfolio.
+Here is my deployed link for My-Portfolio.
+https://pematamang111.github.io/My-Portfolio/
